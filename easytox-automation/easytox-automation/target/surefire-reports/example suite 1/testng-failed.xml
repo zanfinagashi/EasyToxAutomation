@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [example suite 1]" parallel="tests">
+  <test name="Regression suite 1">
+    <packages>
+      <package name=".*"/>
+    </packages>
+    <classes>
+      <class name="com.easytox.automation.constants.Constants"/>
+      <class name="com.easytox.automation.driver.DriverBase$1"/>
+      <class name="com.easytox.automation.driver.DriverBase"/>
+      <class name="com.easytox.automation.driver.DriverFactory"/>
+      <class name="com.easytox.automation.driver.DriverSetup"/>
+      <class name="com.easytox.automation.driver.DriverType$1"/>
+      <class name="com.easytox.automation.driver.DriverType$2"/>
+      <class name="com.easytox.automation.driver.DriverType$3"/>
+      <class name="com.easytox.automation.driver.DriverType$4"/>
+      <class name="com.easytox.automation.driver.DriverType$5"/>
+      <class name="com.easytox.automation.driver.DriverType"/>
+      <class name="com.easytox.automation.driver.ScreenshotListener"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.CheckingMessageOfNoOfResultsDisplayedSteps"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.NavigatingToNextPrevPageSteps"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.NoOfRecordsToBeDisplayedSteps"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.SearchBoxSteps"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.SelectPrefixTypeSteps$AccessionPrefix"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.SelectPrefixTypeSteps"/>
+      <class name="com.easytox.automation.steps.accessionPrefix.SortingOrderSteps"/>
+      <class name="com.easytox.automation.steps.addPhysicians.AddPhysiciansQuestSteps$1"/>
+      <class name="com.easytox.automation.steps.addPhysicians.AddPhysiciansQuestSteps$Physician"/>
+      <class name="com.easytox.automation.steps.addPhysicians.AddPhysiciansQuestSteps"/>
+      <class name="com.easytox.automation.steps.addPhysicians.AddPhysiciansWestSteps"/>
+      <class name="com.easytox.automation.steps.addPhysicians.AddPhysiciansZestSteps"/>
+      <class name="com.easytox.automation.steps.caseList.AddingANewCaseSteps"/>
+      <class name="com.easytox.automation.steps.caseList.DeletingCaseUnderActionColumnSteps"/>
+      <class name="com.easytox.automation.steps.caseList.EditCaseWithAccessionNumberSteps"/>
+      <class name="com.easytox.automation.steps.caseList.EditingACaseUnderActionColumnSteps"/>
+      <class name="com.easytox.automation.steps.caseList.VerifyDataSortingSteps"/>
+      <class name="com.easytox.automation.steps.caseList.VerifyNoOfRecordsDisplayedSteps"/>
+      <class name="com.easytox.automation.steps.caseList.VerifySearchResultsSteps"/>
+      <class name="com.easytox.automation.steps.caseList.VerifyThePaginationSteps"/>
+      <class name="com.easytox.automation.steps.caseList.VerifyTheReportSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.NavigatingToSelectedScreenSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.OutBoundTabSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyDataSortingSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyNoOfRecordsDisplayedSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyTheContentInFailureTabSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyTheContentInInboundTabSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyTheContentInPendingTabSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyTheContentInSentTabSteps"/>
+      <class name="com.easytox.automation.steps.faxQueue.VerifyThePaginationSteps"/>
+      <class name="com.easytox.automation.steps.instruments.AddingANewInstrumentsSteps"/>
+      <class name="com.easytox.automation.steps.instruments.ClickOnEditUnderActionColumnSteps"/>
+      <class name="com.easytox.automation.steps.instruments.NavigateToTheSelectedScreenSteps"/>
+      <class name="com.easytox.automation.steps.instruments.VerifyDataSortingSteps"/>
+      <class name="com.easytox.automation.steps.instruments.VerifyingForInstrumentsLabInformationSteps"/>
+      <class name="com.easytox.automation.steps.instruments.VerifyNoOfRecordsDisplayedSteps"/>
+      <class name="com.easytox.automation.steps.instruments.VerifyPaginationSteps"/>
+      <class name="com.easytox.automation.steps.instruments.VerifyTheSearchResultsSteps"/>
+      <class name="com.easytox.automation.utils.AddressType"/>
+      <class name="com.easytox.automation.utils.AutomationUtils"/>
+      <class name="com.easytox.automation.utils.LocatorType"/>
+      <class name="com.easytox.automation.utils.PaymentType"/>
+      <class name="com.easytox.automation.utils.SampleDataUtil"/>
+      <class name="com.easytox.automation.utils.StringUtils"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$1"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$10"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$11"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$2"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$3"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$4"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$5"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$6"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$7"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$8"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils$9"/>
+      <class name="com.easytox.automation.utils.WebDriverUtils"/>
+      <class name="com.easytox.automation.utils.WebElementConstants$1"/>
+      <class name="com.easytox.automation.utils.WebElementConstants"/>
+      <class name="com.easytox.automation.utils.WebElementHelper"/>
+      <class name="Parallel01Test"/>
+      <class name="Parallel02Test"/>
+      <class name="Parallel03Test"/>
+      <class name="Parallel04Test"/>
+      <class name="Parallel05Test"/>
+      <class name="Parallel06Test"/>
+      <class name="Parallel07Test"/>
+      <class name="Parallel08Test"/>
+      <class name="Parallel09Test"/>
+      <class name="Parallel10Test"/>
+      <class name="Parallel11Test"/>
+      <class name="Parallel12Test"/>
+      <class name="Parallel13Test"/>
+      <class name="Parallel14Test"/>
+      <class name="Parallel15Test"/>
+      <class name="Parallel16Test"/>
+      <class name="Parallel17Test"/>
+      <class name="Parallel18Test"/>
+      <class name="Parallel19Test"/>
+      <class name="Parallel20Test"/>
+      <class name="Parallel21Test"/>
+      <class name="Parallel22Test"/>
+      <class name="Parallel23Test"/>
+      <class name="Parallel24Test"/>
+      <class name="Parallel25Test"/>
+      <class name="Parallel26Test"/>
+      <class name="Parallel27Test"/>
+      <class name="Parallel28Test"/>
+      <class name="Parallel29Test"/>
+      <class name="Parallel30Test"/>
+      <class name="Parallel31Test"/>
+      <class name="Parallel32Test"/>
+      <class name="Parallel33Test"/>
+      <class name="Parallel34Test"/>
+      <class name="Parallel35Test"/>
+      <class name="Parallel36Test"/>
+      <class name="Parallel37Test"/>
+      <class name="Parallel38Test"/>
+      <class name="Parallel39Test"/>
+      <class name="Parallel40Test"/>
+      <class name="Parallel41Test"/>
+      <class name="Parallel42Test"/>
+      <class name="Parallel43Test"/>
+      <class name="Parallel44Test"/>
+      <class name="Parallel45Test"/>
+      <class name="Parallel46Test"/>
+      <class name="Parallel47Test"/>
+      <class name="Parallel48Test"/>
+      <class name="Parallel49Test"/>
+      <class name="Parallel50Test"/>
+      <class name="Parallel51Test"/>
+      <class name="Parallel52Test"/>
+      <class name="Parallel53Test"/>
+      <class name="Parallel54Test"/>
+      <class name="Parallel55Test"/>
+      <class name="Parallel56Test"/>
+      <class name="Parallel57Test"/>
+      <class name="Parallel58Test"/>
+      <class name="Parallel59Test"/>
+      <class name="Parallel60Test"/>
+      <class name="Parallel61Test"/>
+      <class name="Parallel62Test"/>
+      <class name="Parallel63Test"/>
+      <class name="Parallel64Test"/>
+      <class name="Parallel65Test"/>
+      <class name="Parallel66Test"/>
+      <class name="Parallel67Test"/>
+      <class name="Parallel68Test"/>
+      <class name="Parallel69Test"/>
+      <class name="Parallel70Test"/>
+      <class name="Parallel71Test"/>
+      <class name="Parallel72Test"/>
+      <class name="Parallel73Test"/>
+      <class name="Parallel74Test"/>
+      <class name="Parallel75Test"/>
+      <class name="Parallel76Test"/>
+      <class name="Parallel77Test"/>
+      <class name="Parallel78Test"/>
+      <class name="Parallel79Test"/>
+      <class name="Parallel80Test"/>
+      <class name="Parallel81Test"/>
+      <class name="Parallel82Test"/>
+      <class name="Parallel83Test"/>
+      <class name="Parallel84Test"/>
+      <class name="Parallel85Test"/>
+      <class name="Parallel86Test"/>
+      <class name="Parallel87Test"/>
+      <class name="Parallel88Test"/>
+      <class name="Parallel89Test"/>
+    </classes>
+  </test> <!-- Regression suite 1 -->
+  <test name="Regression suite 1(failed)" parallel="tests">
+    <classes>
+      <class name="Parallel77Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel77Test -->
+      <class name="Parallel53Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel53Test -->
+      <class name="Parallel48Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel48Test -->
+      <class name="Parallel83Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel83Test -->
+      <class name="Parallel42Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel42Test -->
+      <class name="Parallel41Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel41Test -->
+      <class name="Parallel59Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel59Test -->
+      <class name="Parallel75Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel75Test -->
+      <class name="Parallel70Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel70Test -->
+      <class name="Parallel89Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel89Test -->
+      <class name="Parallel02Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel02Test -->
+      <class name="Parallel27Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel27Test -->
+      <class name="Parallel78Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel78Test -->
+      <class name="Parallel51Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel51Test -->
+      <class name="Parallel39Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel39Test -->
+      <class name="Parallel49Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel49Test -->
+      <class name="Parallel21Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel21Test -->
+      <class name="Parallel84Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel84Test -->
+      <class name="Parallel81Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel81Test -->
+      <class name="Parallel72Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel72Test -->
+      <class name="Parallel67Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel67Test -->
+      <class name="Parallel22Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel22Test -->
+      <class name="Parallel33Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel33Test -->
+      <class name="Parallel57Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel57Test -->
+      <class name="Parallel54Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel54Test -->
+      <class name="Parallel68Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel68Test -->
+      <class name="Parallel65Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel65Test -->
+      <class name="Parallel30Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel30Test -->
+      <class name="Parallel88Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel88Test -->
+      <class name="Parallel05Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel05Test -->
+      <class name="Parallel18Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel18Test -->
+      <class name="Parallel20Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel20Test -->
+      <class name="Parallel24Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel24Test -->
+      <class name="Parallel37Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel37Test -->
+      <class name="Parallel66Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel66Test -->
+      <class name="Parallel12Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel12Test -->
+      <class name="Parallel03Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel03Test -->
+      <class name="Parallel60Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel60Test -->
+      <class name="Parallel38Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel38Test -->
+      <class name="Parallel61Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel61Test -->
+      <class name="Parallel87Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel87Test -->
+      <class name="Parallel13Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel13Test -->
+      <class name="Parallel44Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel44Test -->
+      <class name="Parallel23Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel23Test -->
+      <class name="Parallel26Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel26Test -->
+      <class name="Parallel47Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel47Test -->
+      <class name="Parallel25Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel25Test -->
+      <class name="Parallel79Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel79Test -->
+      <class name="Parallel80Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel80Test -->
+      <class name="Parallel45Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel45Test -->
+      <class name="Parallel74Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel74Test -->
+      <class name="Parallel73Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel73Test -->
+      <class name="Parallel64Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel64Test -->
+      <class name="Parallel86Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel86Test -->
+      <class name="Parallel50Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel50Test -->
+      <class name="Parallel04Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel04Test -->
+      <class name="Parallel82Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel82Test -->
+      <class name="Parallel63Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel63Test -->
+      <class name="Parallel06Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel06Test -->
+      <class name="Parallel46Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel46Test -->
+      <class name="Parallel17Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel17Test -->
+      <class name="Parallel11Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel11Test -->
+      <class name="Parallel29Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel29Test -->
+      <class name="Parallel09Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel09Test -->
+      <class name="Parallel32Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel32Test -->
+      <class name="Parallel69Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel69Test -->
+      <class name="Parallel55Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel55Test -->
+      <class name="Parallel62Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel62Test -->
+      <class name="Parallel15Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel15Test -->
+      <class name="Parallel16Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel16Test -->
+      <class name="com.easytox.automation.driver.DriverBase">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="closeDriverObjects"/>
+          <include name="instantiateDriverObject"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.easytox.automation.driver.DriverBase -->
+      <class name="Parallel36Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel36Test -->
+      <class name="Parallel07Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel07Test -->
+      <class name="Parallel08Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel08Test -->
+      <class name="Parallel58Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel58Test -->
+      <class name="Parallel19Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel19Test -->
+      <class name="Parallel34Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel34Test -->
+      <class name="Parallel01Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel01Test -->
+      <class name="Parallel10Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel10Test -->
+      <class name="Parallel14Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel14Test -->
+      <class name="Parallel40Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel40Test -->
+      <class name="Parallel56Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel56Test -->
+      <class name="Parallel35Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel35Test -->
+      <class name="Parallel71Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel71Test -->
+      <class name="Parallel85Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel85Test -->
+      <class name="Parallel52Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel52Test -->
+      <class name="Parallel76Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel76Test -->
+      <class name="Parallel28Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel28Test -->
+      <class name="Parallel31Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel31Test -->
+      <class name="Parallel43Test">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Parallel43Test -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
